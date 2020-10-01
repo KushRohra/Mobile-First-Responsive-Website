@@ -39,7 +39,7 @@ main {
 #landing-text {
     display: flex;
     flex: 0 1 40vw;
-    height: 50vh;
+    height: 35vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -64,4 +64,45 @@ main {
 
 .btn:hover {
     background: #f4f4f4;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0 1 60vw;
+    height: 65vh;
+    margin: 0;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: dotted 1px white;
+    border-right: dotted 1px white;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
 }
